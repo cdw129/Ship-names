@@ -24,9 +24,9 @@ require 'parser.pl';
 #   StalkerFighter("name")
 # );
 
-ShipConf(0, 4, 0,     "PVTR Jimi-Saru",  # Warp Advanced Longbow
+ShipConf(0, 0, 0,     "PVTR Jimi-Saru",  # Warp Advanced Longbow
 );
-ShipConf(0, 2, 0.125, "PVTR Fulminatae", # Warp Brigantine
+ShipConf(0, 4, 0.125, "PVTR Fulminatae", # Warp Brigantine
     AdventureShuttle("S01"),
     StalkerFighter("F01"),
     StalkerFighter("F02"),
@@ -41,13 +41,13 @@ ShipConf(0, 3, 0.25,  "PVTR Apocalypse", # Warp Tornado
 ShipConf(0, 7, 0.375, "TSN Academia",    # Warp Light Cruiser
 );
 
-ShipConf(0, 7, 0.5,   "Ship 5",          # Warp Light Cruiser
+ShipConf(0, 1, 0.5,   "Ship 5",          # Warp Light Cruiser
 );
-ShipConf(0, 7, 0.625, "Ship 6",          # Warp Light Cruiser
+ShipConf(0, 2, 0.625, "Ship 6",          # Warp Light Cruiser
 );
-ShipConf(0, 7, 0.75,  "Ship 7",          # Warp Light Cruiser
+ShipConf(0, 5, 0.75,  "Ship 7",          # Warp Light Cruiser
 );
-ShipConf(0, 7, 0.875, "Ship 8",          # Warp Light Cruiser
+ShipConf(0, 6, 0.875, "Ship 8",          # Warp Light Cruiser
 );
 
 ######################################################################
