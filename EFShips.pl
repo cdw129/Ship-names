@@ -25,29 +25,35 @@ require 'parser.pl';
 # );
 
 ShipConf(0, 1, 0,     "PVTR Jimi-Saru",  # Warp Longbow
+	AdventureShuttle("S01")
 );
 ShipConf(0, 4, 0.125, "PVTR Fulminatae", # Warp Brigantine
-    AdventureShuttle("S01"),
+    AdventureShuttle("S02"),
     StalkerFighter("F01"),
     StalkerFighter("F02"),
     AvengerBomber("B01"),
     AvengerBomber("B02"),
     AvengerBomber("B03"),
 );
-ShipConf(0, 2, 0.25,  "PVTR Apocalypse", # Warp Strongbow
-    AdventureShuttle("S01"),
+ShipConf(0, 3, 0.25,  "PVTR Apocalypse", # Warp Toranado
+    AdventureShuttle("S03"),
     StalkerFighter("F01"),
 );
 ShipConf(0, 7, 0.375, "TSN Academia",    # Warp Light Cruiser
+AdventureShuttle("S04")
 );
 
-ShipConf(0, 0, 0.5,   "Ship 5",          # Warp Advanced Longbow 
+ShipConf(0, 2, 0.5,   "PVTR Farside",    # Warp Strongbow
+	AdventureShuttle("S05") 
 );
-ShipConf(0, 3, 0.625, "Ship 6",          # Warp Toranado
+ShipConf(0, 0, 0.625, "Ship 6",          # Warp Advanced Longbow
+	AdventureShuttle("S06")
 );
 ShipConf(0, 5, 0.75,  "Ship 7",          # Warp Pirate Bulk Cargo
+	AdventureShuttle("S07")
 );
 ShipConf(0, 6, 0.875, "Ship 8",          # Warp Pirate Science Vessel
+	AdventureShuttle("S08")
 );
 
 ######################################################################
