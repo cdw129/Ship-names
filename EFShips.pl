@@ -17,6 +17,10 @@ require 'parser.pl';
 *AvengerBomber    = SSConf(qw(130 Pirate player singleseat fighter)); # yeah honestly
 *AdventureShuttle = SSConf(qw(131 Pirate player singleseat shuttle));
 *StalkerFighter   = SSConf(qw(132 Pirate player singleseat fighter));
+*TSNMedium = SSConf(qw(100 player singleseat fighter));
+*TSNBomber = SSConf(qw(101 player singleseat fighter));
+*TSNShuttle = SSConf(qw(102 player singleseat shuttle));
+*TSNLRShuttle = SSConf(qw(103 player singleseat shuttle));
 ######################################################################
 # ShipConf(drivetype(0=warp,1=jump), shiptype (from vesselData.xml), colour (0.0-1.0), "name",
 #   AvengerBomber("name")
@@ -24,10 +28,10 @@ require 'parser.pl';
 #   StalkerFighter("name")
 # );
 
-ShipConf(0, 1, 0,     "PVTR Jimi-Saru",  # Warp Longbow
+ShipConf(0, 15, 0,     "PVTR Jimi-Saru",  # Warp Longbow
 	AdventureShuttle("S01")
 );
-ShipConf(0, 4, 0.125, "PVTR Fulminatae", # Warp Brigantine
+ShipConf(0, 18, 0.125, "PVTR Fulminatae", # Warp Brigantine
     AdventureShuttle("S02"),
     StalkerFighter("F01"),
     StalkerFighter("F02"),
@@ -35,24 +39,24 @@ ShipConf(0, 4, 0.125, "PVTR Fulminatae", # Warp Brigantine
     AvengerBomber("B02"),
     AvengerBomber("B03"),
 );
-ShipConf(0, 3, 0.25,  "PVTR Apocalypse", # Warp Toranado
+ShipConf(0, 17, 0.25,  "PVTR Apocalypse", # Warp Toranado
     AdventureShuttle("S03"),
     StalkerFighter("F01"),
 );
-ShipConf(0, 7, 0.375, "TSN Academia",    # Warp Light Cruiser
-AdventureShuttle("S04")
+ShipConf(0, 0, 0.375, "TSN Academia",    # Warp Light Cruiser
+	TSNLRShuttle("S04"),
 );
 
-ShipConf(0, 2, 0.5,   "PVTR Farside",    # Warp Strongbow
+ShipConf(0, 16, 0.5,   "PVTR Farside",    # Warp Strongbow
 	AdventureShuttle("S05") 
 );
-ShipConf(0, 0, 0.625, "Ship 6",          # Warp Advanced Longbow
+ShipConf(0, 16, 0.625, "PVTR Veritas",          # Warp Strongbow
 	AdventureShuttle("S06")
 );
-ShipConf(0, 5, 0.75,  "Ship 7",          # Warp Pirate Bulk Cargo
+ShipConf(0, 19, 0.75,  "Ship 7",          # Warp Pirate Bulk Cargo
 	AdventureShuttle("S07")
 );
-ShipConf(0, 6, 0.875, "Ship 8",          # Warp Pirate Science Vessel
+ShipConf(0, 20, 0.875, "Ship 8",          # Warp Pirate Science Vessel
 	AdventureShuttle("S08")
 );
 
