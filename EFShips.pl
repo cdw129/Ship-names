@@ -53,7 +53,7 @@ ShipConf(0, 16, 0.5,   "PVTR Farside",    # Warp Strongbow
 ShipConf(0, 16, 0.625, "PVTR Veritas",          # Warp Strongbow
 	AdventureShuttle("S06")
 );
-ShipConf(0, 19, 0.75,  "Ship 7",          # Warp Pirate Bulk Cargo
+ShipConf(0, 2, 0.75,  "TSN Vesemir",          # Warp Battleship
 	AdventureShuttle("S07")
 );
 ShipConf(0, 20, 0.875, "Ship 8",          # Warp Pirate Science Vessel
