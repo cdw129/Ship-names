@@ -29,11 +29,11 @@ require 'parser.pl';
 # );
 
 
-ShipConf(0, 16, 0.5,   "PVTR Farside",    # Warp Strongbow
+ShipConf(0, 14, 0.5,   "PVTR Farside",    # Warp Strongbow
 	AdventureShuttle("S05"), 
 	StalkerFighter("F04"),
 );
-ShipConf(0, 18, 0.125, "PVTR Fulminatae", # Warp Brigantine
+ShipConf(0, 16, 0.125, "PVTR Fulminatae", # Warp Brigantine
     AdventureShuttle("S02"),
     StalkerFighter("F01"),
     StalkerFighter("F02"),
@@ -41,10 +41,10 @@ ShipConf(0, 18, 0.125, "PVTR Fulminatae", # Warp Brigantine
     AvengerBomber("B02"),
     AvengerBomber("B03"),
 );
-ShipConf(0, 15, 0,     "PVTR Jimi-Saru",  # Warp Longbow
+ShipConf(0, 17, 0,     "PVTR Jimi-Saru",  # Warp Longbow
 	AdventureShuttle("S01")
 );
-ShipConf(0, 17, 0.25,  "PVTR Apocalypse", # Warp Toranado
+ShipConf(0, 18, 0.25,  "PVTR Apocalypse", # Warp Toranado
     AdventureShuttle("S03"),
     StalkerFighter("F03"),
     AvengerBomber("B04"),
