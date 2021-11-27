@@ -28,8 +28,10 @@ require 'parser.pl';
 #   StalkerFighter("name")
 # );
 
-ShipConf(0, 15, 0,     "PVTR Jimi-Saru",  # Warp Longbow
-	AdventureShuttle("S01")
+
+ShipConf(0, 16, 0.5,   "PVTR Farside",    # Warp Strongbow
+	AdventureShuttle("S05"), 
+	StalkerFighter("F04"),
 );
 ShipConf(0, 18, 0.125, "PVTR Fulminatae", # Warp Brigantine
     AdventureShuttle("S02"),
@@ -39,24 +41,22 @@ ShipConf(0, 18, 0.125, "PVTR Fulminatae", # Warp Brigantine
     AvengerBomber("B02"),
     AvengerBomber("B03"),
 );
+ShipConf(0, 15, 0,     "PVTR Jimi-Saru",  # Warp Longbow
+	AdventureShuttle("S01")
+);
 ShipConf(0, 17, 0.25,  "PVTR Apocalypse", # Warp Toranado
     AdventureShuttle("S03"),
     StalkerFighter("F03"),
-	AvengerBomber("B04"),
+    AvengerBomber("B04"),
 );
 ShipConf(0, 0, 0.375, "TSN Academia",    # Warp Light Cruiser
 	TSNLRShuttle("S04"),
 );
-
-ShipConf(0, 16, 0.5,   "PVTR Farside",    # Warp Strongbow
-	AdventureShuttle("S05"), 
-	StalkerFighter("F04"),
-);
-ShipConf(0, 16, 0.625, "PVTR Veritas",          # Warp Strongbow
+ShipConf(0, 19, 0.625, "Rum Runner",          # Warp Pirate Cargo
 	AdventureShuttle("S06"),
 );
-ShipConf(0, 2, 0.75,  "TSN Vesemir",          # Warp Battleship
-	TSNLRShuttle("S07"),
+ShipConf(0, 21, 0.75,  "CAP Broadsides",          # Warp CAP Jager
+	AdventureShuttle("S07"),
 );
 ShipConf(0, 20, 0.875, "Ship 8",          # Warp Pirate Science Vessel
 	AdventureShuttle("S08"),
