@@ -58,9 +58,8 @@ ShipConf(0, 19, 0.625, "Rum Runner",          # Warp Pirate Cargo
 ShipConf(0, 21, 0.75,  "CAP Broadsides",          # Warp CAP Jager
 	AdventureShuttle("S07"),
 );
-ShipConf(0, 22, 0.125, "GreyBeards Ghost",          # A Ghost Ship
-	AdventureShuttle("G01"),
-	AvengerBomber("G02"),
+ShipConf(0, 14, 0.125, "Ship 8",          # Strongbow
+	AdventureShuttle("P01"),
 );
 
 ######################################################################
